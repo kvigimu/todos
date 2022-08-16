@@ -90,14 +90,14 @@ const drawTaskList = () => {
 
     //adding styles
     myLi.className = "container list-group-item";
-    myLi.style.display = "flex";
-    myInput.className = " col-2 form-check-input me-1";
-    myLabel.className = " col-5 form-check-label";
-    deleteBtn.className = " col-1 btn btn-danger";
+    myLi.className = "d-md-flex d-lg-flex";
+    myInput.className = " col-md-2 col-lg-2 form-check-input me-1";
+    myLabel.className = " col-md-4 col-lg-4 form-check-label";
+    deleteBtn.className = " col-md-1 col-lg-1 btn btn-danger";
     deleteBtn.style.margin = "1px";
-    editBtn.className = " col-1 btn btn-info";
+    editBtn.className = " col-md-1 col-lg-1 btn btn-info";
     editBtn.style.margin = "1px";
-    myDate.className = " col-3";
+    myDate.className = " col-md-3 col-lg-3";
 
     //adding attributes
     //input
